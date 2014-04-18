@@ -8,7 +8,7 @@ int main(void) {
 	
     // 53 columns, 29 rows. 0px offset for x/y.
     // Background color 0 (black), foreground color 15 (white)
-    nio_InitConsole(&csl, 53, 29, 0, 0, 0, 12);
+    nio_InitConsole(&csl, 53, 29, 0, 0, 0, 15);
     nio_DrawConsole(&csl);
     nio_printf(&csl, "nCLI\n");
 	nio_printf(&csl, "ordelore8x\n");
